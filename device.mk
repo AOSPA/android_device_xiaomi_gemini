@@ -232,6 +232,9 @@ PRODUCT_PACKAGES += \
 # QMI
 PRODUCT_PACKAGES += \
     libjson
+	
+# QPerformance
+PRODUCT_BOOT_JARS += QPerformance
 
 # Recovery
 PRODUCT_PACKAGES += \
