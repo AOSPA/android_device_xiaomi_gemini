@@ -129,6 +129,9 @@ ro.min_freq_4=307200
 ro.sys.fw.bg_apps_limit=60
 ro.vendor.extension_library=libqti-perfd-client.so
 
+# Qualcomm BT aptXHD
+persist.bt.enableAptXHD=true
+
 # Radio
 DEVICE_PROVISIONED=1
 rild.libpath=/vendor/lib64/libril-qc-qmi-1.so
