@@ -516,4 +516,8 @@
         <item>"/system/framework/arm64/boot-core-libart.oat"</item>
         <item>"/data/dalvik-cache/arm64/system@framework@services.jar@classes.dex"</item>
     </string-array>
+
+    <!-- Internal default to navigation bar value
+         NOTE: Otherwie PA will use the NavigationBar as default . -->
+    <bool name="config_defaultToNavigationBar">false</bool>
 </resources>
