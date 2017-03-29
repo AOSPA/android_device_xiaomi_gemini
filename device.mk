@@ -35,9 +35,6 @@ PRODUCT_PROPERTY_OVERRIDES += \
 TARGET_SCREEN_HEIGHT := 1920
 TARGET_SCREEN_WIDTH := 1080
 
-# HWUI overrides
-$(call inherit-product, frameworks/native/build/phone-xxhdpi-3072-hwui-memory.mk)
-
 # Permissions
 PRODUCT_COPY_FILES += \
     external/ant-wireless/antradio-library/com.dsi.ant.antradio_library.xml:system/etc/permissions/com.dsi.ant.antradio_library.xml \
