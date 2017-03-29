@@ -90,10 +90,6 @@ USE_DEVICE_SPECIFIC_CAMERA := true
 # Charger
 BOARD_CHARGER_ENABLE_SUSPEND := true
 
-# CM Hardware
-BOARD_USES_CYANOGEN_HARDWARE := true
-TARGET_TAP_TO_WAKE_NODE := "/proc/touchpanel/double_tap_enable"
-
 # CNE and DPM
 BOARD_USES_QCNE := true
 
@@ -120,6 +116,9 @@ OVERRIDE_RS_DRIVER := libRSDriver_adreno.so
 
 VSYNC_EVENT_PHASE_OFFSET_NS := 2000000
 SF_VSYNC_EVENT_PHASE_OFFSET_NS := 6000000
+
+#DT2W Node
+TARGET_TAP_TO_WAKE_NODE := "/proc/touchpanel/double_tap_enable"
 
 # Encryption
 TARGET_HW_DISK_ENCRYPTION := true
