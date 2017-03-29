@@ -208,7 +208,7 @@ PRODUCT_PACKAGES += \
 
 # Lights
 PRODUCT_PACKAGES += \
-    lights.msm8996
+    lights.gemini
 
 # LiveDisplay native
 PRODUCT_PACKAGES += \
