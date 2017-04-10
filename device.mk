@@ -194,7 +194,7 @@ PRODUCT_PACKAGES += \
 
 # Lights
 PRODUCT_PACKAGES += \
-    lights.gemini
+    lights.qcom
 
 # LiveDisplay native
 PRODUCT_PACKAGES += \
