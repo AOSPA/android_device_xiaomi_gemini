@@ -25,7 +25,6 @@ import android.util.Log;
 import android.view.KeyEvent;
 
 import com.cyanogenmod.settings.device.utils.DeviceKeyHandler;
-
 import com.cyanogenmod.settings.device.utils.FileUtils;
 
 public class KeyHandler implements DeviceKeyHandler {

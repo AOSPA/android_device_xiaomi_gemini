@@ -15,34 +15,33 @@
  * limitations under the License.
  */
 
-package com.cyanogenmod.settings.device.utils;
+package com.cyanogenmod.settings.device;
 
 import android.os.Bundle;
-import android.preference.Preference;
-import android.preference.Preference.OnPreferenceChangeListener;
-import android.preference.PreferenceActivity;
-import android.preference.ListPreference;
-import android.preference.SwitchPreference;
+import android.support.v14.preference.PreferenceFragment;
+import android.support.v14.preference.SwitchPreference;
+import android.support.v7.preference.ListPreference;
+import android.support.v7.preference.Preference;
+import android.support.v7.preference.Preference.OnPreferenceChangeListener;
 import android.text.TextUtils;
 import android.view.MenuItem;
 
-import java.io.File;
+import com.android.settingslib.drawer.SettingsDrawerActivity;
+
 import com.cyanogenmod.settings.device.utils.FileUtils;
 
-public class NodePreferenceActivity extends PreferenceActivity
+public class ButtonSettingsFragment extends PreferenceFragment
         implements OnPreferenceChangeListener {
 
     @Override
-    protected void onCreate(Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
-        getActionBar().setDisplayHomeAsUpEnabled(true);
+    public void onCreatePreferences(Bundle savedInstanceState, String rootKey) {
+        addPreferencesFromResource(R.xml.button_panel);
     }
 
     @Override
-    protected void onResume() {
+    public void onResume() {
         super.onResume();
         updatePreferencesBasedOnDependencies();
-            getListView().setPadding(0, 0, 0, 0);
     }
 
     @Override
@@ -90,17 +89,6 @@ public class NodePreferenceActivity extends PreferenceActivity
         }
     }
 
-    @Override
-    public boolean onOptionsItemSelected(MenuItem item) {
-        switch (item.getItemId()) {
-        // Respond to the action bar's Up/Home button
-        case android.R.id.home:
-            finish();
-            return true;
-        }
-        return super.onOptionsItemSelected(item);
-    }
-
     private void updatePreferencesBasedOnDependencies() {
         for (String pref : Constants.sNodeDependencyMap.keySet()) {
             SwitchPreference b = (SwitchPreference) findPreference(pref);
@@ -110,7 +98,7 @@ public class NodePreferenceActivity extends PreferenceActivity
                 String dependencyNodeValue = FileUtils.readOneLine(dependencyNode);
                 boolean shouldSetEnabled = dependencyNodeValue.equals(
                         Constants.sNodeDependencyMap.get(pref)[1]);
-                Constants.updateDependentPreference(this, b, pref, shouldSetEnabled);
+                Utils.updateDependentPreference(getContext(), b, pref, shouldSetEnabled);
             }
         }
     }
