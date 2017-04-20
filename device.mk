@@ -127,6 +127,10 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     ConfigPanel
 
+# Consumerir
+PRODUCT_PACKAGES += \
+    consumerir.msm8996
+
 # Display
 PRODUCT_PACKAGES += \
     copybit.msm8996 \

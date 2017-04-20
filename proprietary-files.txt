@@ -607,10 +607,6 @@ vendor/lib64/libvoice-svc.so
 # IPA
 bin/ipacm-diag
 
-# IRDA
-lib64/hw/consumerir.msm8996.so
-lib/hw/consumerir.msm8996.so
-
 # Keystore
 vendor/lib64/hw/keystore.msm8996.so
 vendor/lib/hw/keystore.msm8996.so
