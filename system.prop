@@ -147,6 +147,8 @@ persist.radio.rat_on=combine
 persist.radio.redir_party_num=1
 persist.radio.sib16_support=1
 
+persist.radio.add_power_save=1
+
 # RmNet Data 
 persist.rmnet.data.enable=true
 persist.data.wda.enable=true
