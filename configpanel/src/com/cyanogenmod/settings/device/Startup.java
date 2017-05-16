@@ -70,8 +70,7 @@ public class Startup extends BroadcastReceiver {
     }
 
     static boolean hasButtonProcs() {
-        return (FileUtils.fileExists(Constants.BUTTON_SWAP_NODE) ||
-                FileUtils.fileExists(Constants.FP_HOME_KEY_NODE) ||
+        return (FileUtils.fileExists(Constants.FP_HOME_KEY_NODE) ||
                 FileUtils.fileExists(Constants.FP_WAKEUP_NODE));
     }
 
