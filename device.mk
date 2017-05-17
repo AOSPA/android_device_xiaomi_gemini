@@ -96,15 +96,7 @@ PRODUCT_PACKAGES += \
 
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/audio/audio_platform_info.xml:system/etc/audio_platform_info.xml \
-    $(LOCAL_PATH)/audio/mixer_paths_tasha.xml:system/etc/mixer_paths_tasha.xml 
-
-# Browser
-PRODUCT_PACKAGES += \
-    Gello
-
-# Camera
-PRODUCT_PACKAGES += \
-    Snap
+    $(LOCAL_PATH)/audio/mixer_paths_tasha.xml:system/etc/mixer_paths_tasha.xml
 
 # Device config scripts
 PRODUCT_PACKAGES += \
