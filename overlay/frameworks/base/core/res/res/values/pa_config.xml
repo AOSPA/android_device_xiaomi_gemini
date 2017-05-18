@@ -21,4 +21,7 @@
     <!-- Internal default to navigation bar value
          NOTE: Otherwie PA will use the NavigationBar as default. -->
     <bool name="config_defaultToNavigationBar">false</bool>
+
+    <!-- Whether device supports double tap to wake -->
+    <integer name="config_doubleTapKeyCode">143</integer>
 </resources>
