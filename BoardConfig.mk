@@ -67,9 +67,6 @@ TARGET_BOARD_PLATFORM_GPU := qcom-adreno530
 # Properties
 TARGET_SYSTEM_PROP += $(DEVICE_PATH)/system.prop
 
-# ANT+
-BOARD_ANT_WIRELESS_DEVICE := "qualcomm-uart"
-
 # Audio
 -include hardware/qcom/audio/configs/msm8996/msm8996.mk
 
