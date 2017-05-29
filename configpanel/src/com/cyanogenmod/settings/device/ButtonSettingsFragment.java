@@ -17,22 +17,18 @@
 
 package com.cyanogenmod.settings.device;
 
-import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.support.v14.preference.PreferenceFragment;
 import android.support.v14.preference.SwitchPreference;
 import android.support.v7.preference.ListPreference;
 import android.support.v7.preference.Preference;
 import android.support.v7.preference.Preference.OnPreferenceChangeListener;
-import android.support.v7.preference.PreferenceCategory;
-import android.support.v7.preference.PreferenceManager;
 import android.text.TextUtils;
 import android.view.MenuItem;
 
 import com.android.settingslib.drawer.SettingsDrawerActivity;
 
 import com.cyanogenmod.settings.device.utils.FileUtils;
-import com.cyanogenmod.settings.device.utils.PackageManagerUtils;
 
 public class ButtonSettingsFragment extends PreferenceFragment
         implements OnPreferenceChangeListener {
@@ -50,26 +46,15 @@ public class ButtonSettingsFragment extends PreferenceFragment
 
     @Override
     public boolean onPreferenceChange(Preference preference, Object newValue) {
-        SharedPreferences prefs = PreferenceManager.getDefaultSharedPreferences(getContext());
-
         String node = Constants.sBooleanNodePreferenceMap.get(preference.getKey());
         if (!TextUtils.isEmpty(node) && FileUtils.isFileWritable(node)) {
             Boolean value = (Boolean) newValue;
             FileUtils.writeLine(node, value ? "1" : "0");
-            if (Constants.FP_WAKEUP_KEY.equals(preference.getKey())) {
-                value &= prefs.getBoolean(Constants.FP_POCKETMODE_KEY, false);
-                Utils.broadcastCustIntent(getContext(), value);
-            }
             return true;
         }
         node = Constants.sStringNodePreferenceMap.get(preference.getKey());
         if (!TextUtils.isEmpty(node) && FileUtils.isFileWritable(node)) {
             FileUtils.writeLine(node, (String) newValue);
-            return true;
-        }
-
-        if (Constants.FP_POCKETMODE_KEY.equals(preference.getKey())) {
-            Utils.broadcastCustIntent(getContext(), (Boolean) newValue);
             return true;
         }
 
@@ -102,17 +87,6 @@ public class ButtonSettingsFragment extends PreferenceFragment
             } else {
                 l.setEnabled(false);
             }
-        }
-
-        // Initialize other preferences whose keys are not associated with nodes
-        final PreferenceCategory fingerprintCategory =
-                (PreferenceCategory) getPreferenceScreen().findPreference(Constants.CATEGORY_FP);
-
-        SwitchPreference b = (SwitchPreference) findPreference(Constants.FP_POCKETMODE_KEY);
-        if (!PackageManagerUtils.isAppInstalled(getContext(), "com.cyanogenmod.pocketmode")) {
-            fingerprintCategory.removePreference(b);
-        } else {
-            b.setOnPreferenceChangeListener(this);
         }
     }
 
