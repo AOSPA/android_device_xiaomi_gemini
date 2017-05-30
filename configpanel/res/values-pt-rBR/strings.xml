@@ -18,12 +18,12 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <!-- Device specific settings -->
-    <string name="device_settings_app_name">Advanced settings</string>
+    <string name="device_settings_app_name">Configurações avançadas</string>
     <!-- Fingerprint settings -->
-    <string name="fingerprint_panel_title">Fingerprint Options</string>
-    <string name="fingerprint_panel_summary">Device related fingerprint options</string>
-    <string name="fingerprint_as_home_title">Fingerprint as home</string>
-    <string name="fingerprint_as_home_summary">Use the fingerprint sensor as a home button</string>
-    <string name="fingerprint_wakeup_title">Fingerprint wake-up</string>
-    <string name="fingerprint_wakeup_summary">Allow the fingerprint sensor to wake the device while the screen is off</string>
+    <string name="fingerprint_panel_title">Opções de impressão digital</string>
+    <string name="fingerprint_panel_summary">Opções de impressão digital relacionadas ao dispositivo</string>
+    <string name="fingerprint_as_home_title">Sensor de impressões digitais como botão Home</string>
+    <string name="fingerprint_as_home_summary">Utilizar o sensor de impressões digitais como botão Home</string>
+    <string name="fingerprint_wakeup_title">Ligar tela com impressão digital</string>
+    <string name="fingerprint_wakeup_summary">Permitir que o sensor de impressões digitais ative o dispositivo enquanto a tela estiver desligada</string>
 </resources>

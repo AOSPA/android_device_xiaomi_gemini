@@ -18,12 +18,12 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <!-- Device specific settings -->
-    <string name="device_settings_app_name">Advanced settings</string>
+    <string name="device_settings_app_name">Configuració avançada</string>
     <!-- Fingerprint settings -->
-    <string name="fingerprint_panel_title">Fingerprint Options</string>
-    <string name="fingerprint_panel_summary">Device related fingerprint options</string>
-    <string name="fingerprint_as_home_title">Fingerprint as home</string>
-    <string name="fingerprint_as_home_summary">Use the fingerprint sensor as a home button</string>
-    <string name="fingerprint_wakeup_title">Fingerprint wake-up</string>
-    <string name="fingerprint_wakeup_summary">Allow the fingerprint sensor to wake the device while the screen is off</string>
+    <string name="fingerprint_panel_title">Opcions d'empremtes dactilars</string>
+    <string name="fingerprint_panel_summary">Opcions d'empremtes digitals relacionades amb el dispositiu</string>
+    <string name="fingerprint_as_home_title">Empremta digital com a inici</string>
+    <string name="fingerprint_as_home_summary">Utilitza el sensor d\'empremta digital com si fos un botó d\'inici</string>
+    <string name="fingerprint_wakeup_title">Encesa amb empremta digital</string>
+    <string name="fingerprint_wakeup_summary">Permet al sensor d\'empremta digital encendre el dispositiu, mentre la pantalla està apagada</string>
 </resources>
