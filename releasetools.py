@@ -1,6 +1,5 @@
 # Copyright (C) 2009 The Android Open Source Project
 # Copyright (c) 2011, The Linux Foundation. All rights reserved.
-# Copyright (C) 2017 The LineageOS Project
 # Copyright (C) 2017 Paranoid Android
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
@@ -15,28 +14,15 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-import hashlib
 import common
 import re
 import sha
 
 def FullOTA_Assertions(info):
-  AddModemAssertion(info, info.input_zip)
-  return
+  print "FullOTA_Assertions not implemented"
 
 def IncrementalOTA_Assertions(info):
-  AddModemAssertion(info, info.target_zip)
-  return
-
-def AddModemAssertion(info, input_zip):
-  android_info = info.input_zip.read("OTA/android-info.txt")
-  m = re.search(r'require\s+version-modem\s*=\s*(\S+)', android_info)
-  if m:
-    versions = m.group(1).split('|')
-    if len(versions) and '*' not in versions:
-      cmd = 'assert(gemini.verify_modem(' + ','.join(['"%s"' % modem for modem in versions]) + ') == "1");'
-      info.script.AppendExtra(cmd)
-  return
+  print "IncrementalOTA_Assertions not implemented"
 
 def InstallImage(img_name, img_file, partition, info):
   common.ZipWriteStr(info.output_zip, "firmware/" + img_name, img_file)
