@@ -105,6 +105,10 @@ PRODUCT_PACKAGES += \
     init.qcom.usb.rc \
     ueventd.qcom.rc
 
+# Camera
+PRODUCT_PACKAGES += \
+    Camera2
+
 # CNE
 PRODUCT_PACKAGES += \
     libcnefeatureconfig
