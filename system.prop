@@ -60,9 +60,6 @@ sys.fpc.tu.disabled=0
 # FRP
 ro.frp.pst=/dev/block/bootdevice/by-name/frp
 
-# Force enable FastDormancy
-persist.env.fastdorm.enabled=true
-
 # Graphics
 debug.egl.hw=1
 debug.gralloc.enable_fb_ubwc=1
