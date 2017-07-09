@@ -1,0 +1,8 @@
+Code-Review+2: Fabian Leutenegger <fabian.leutenegger@bluewin.ch>
+Verified+1: Fabian Leutenegger <fabian.leutenegger@bluewin.ch>
+Code-Review+2: Alex Naidis <alex.naidis@linux.com>
+Submitted-by: Alex Naidis <alex.naidis@linux.com>
+Submitted-at: Sun, 09 Jul 2017 12:03:27 +0000
+Reviewed-on: https://gerrit.aospa.co/3284
+Project: AOSPA/android_device_xiaomi_gemini
+Branch: refs/heads/nougat-mr2
