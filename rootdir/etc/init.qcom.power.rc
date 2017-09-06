@@ -59,7 +59,7 @@ on charger
     write /sys/module/msm_thermal/parameters/enabled "N"
     start hvdcp_opti
 
-on property:sys.boot_completed=1
+on enable-low-power
     # Disable thermal hotplug to switch governor
     write /sys/module/msm_thermal/core_control/enabled 0
 
@@ -156,6 +156,7 @@ on class_start:late_start
     trigger enable-low-power
 
 on property:dev.bootcomplete=1
+    trigger enable-low-power
     setprop sys.io.scheduler "bfq"
 
 on property:init.svc.recovery=running
