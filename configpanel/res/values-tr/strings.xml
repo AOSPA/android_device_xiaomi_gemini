@@ -19,12 +19,12 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <!-- Device specific settings -->
-  <string name="device_settings_app_name">Impostazioni avanzate</string>
+  <string name="device_settings_app_name">Gelişmiş ayarlar</string>
   <!-- Fingerprint settings -->
-  <string name="fingerprint_panel_title">Opzioni di impronte digitali</string>
-  <string name="fingerprint_panel_summary">Opzioni relative alle impronte digitali relative al dispositivo</string>
-  <string name="fingerprint_as_home_title">Impronte digitali come home</string>
-  <string name="fingerprint_as_home_summary">Utilizza lettore impronte digitali come pulsante home</string>
-  <string name="fingerprint_wakeup_title">Risveglo impronte digitali</string>
-  <string name="fingerprint_wakeup_summary">Consenti al sensore d\'impronte digitali di risvegliare il dispositivo quando lo schermo è spento</string>
+  <string name="fingerprint_panel_title">Parmak İzi Seçenekleri</string>
+  <string name="fingerprint_panel_summary">Cihaz ile ilgili parmak izi seçenekleri</string>
+  <string name="fingerprint_as_home_title">Ana ekran için parmak izi</string>
+  <string name="fingerprint_as_home_summary">Parmak izi sensörünü ana ekran tuşu olarak kullanın</string>
+  <string name="fingerprint_wakeup_title">Parmak izi ile uyandır</string>
+  <string name="fingerprint_wakeup_summary">Ekran kapalıyken parmak izi sensörünün cihazı uyandırmasına izin ver</string>
 </resources>

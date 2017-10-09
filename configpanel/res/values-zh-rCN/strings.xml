@@ -19,12 +19,12 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <!-- Device specific settings -->
-  <string name="device_settings_app_name">Impostazioni avanzate</string>
+  <string name="device_settings_app_name">高级设置</string>
   <!-- Fingerprint settings -->
-  <string name="fingerprint_panel_title">Opzioni di impronte digitali</string>
-  <string name="fingerprint_panel_summary">Opzioni relative alle impronte digitali relative al dispositivo</string>
-  <string name="fingerprint_as_home_title">Impronte digitali come home</string>
-  <string name="fingerprint_as_home_summary">Utilizza lettore impronte digitali come pulsante home</string>
-  <string name="fingerprint_wakeup_title">Risveglo impronte digitali</string>
-  <string name="fingerprint_wakeup_summary">Consenti al sensore d\'impronte digitali di risvegliare il dispositivo quando lo schermo è spento</string>
+  <string name="fingerprint_panel_title">指纹选项</string>
+  <string name="fingerprint_panel_summary">与设备相关的指纹选项</string>
+  <string name="fingerprint_as_home_title">将指纹作为 Home 键</string>
+  <string name="fingerprint_as_home_summary">将指纹传感器作为 Home 键使用</string>
+  <string name="fingerprint_wakeup_title">指纹唤醒</string>
+  <string name="fingerprint_wakeup_summary">屏幕关闭时允许通过指纹传感器唤醒设备</string>
 </resources>

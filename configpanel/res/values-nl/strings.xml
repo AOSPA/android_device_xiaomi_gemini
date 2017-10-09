@@ -19,12 +19,12 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <!-- Device specific settings -->
-  <string name="device_settings_app_name">Impostazioni avanzate</string>
+  <string name="device_settings_app_name">Geavanceerde instellingen</string>
   <!-- Fingerprint settings -->
-  <string name="fingerprint_panel_title">Opzioni di impronte digitali</string>
-  <string name="fingerprint_panel_summary">Opzioni relative alle impronte digitali relative al dispositivo</string>
-  <string name="fingerprint_as_home_title">Impronte digitali come home</string>
-  <string name="fingerprint_as_home_summary">Utilizza lettore impronte digitali come pulsante home</string>
-  <string name="fingerprint_wakeup_title">Risveglo impronte digitali</string>
-  <string name="fingerprint_wakeup_summary">Consenti al sensore d\'impronte digitali di risvegliare il dispositivo quando lo schermo è spento</string>
+  <string name="fingerprint_panel_title">Vingerafdruk instellingen</string>
+  <string name="fingerprint_panel_summary">Apparaat gerelateerde vingerafdruk opties</string>
+  <string name="fingerprint_as_home_title">Vingerafdruk als thuisknop</string>
+  <string name="fingerprint_as_home_summary">Vingerafdruksensor gebruiken als thuisknop</string>
+  <string name="fingerprint_wakeup_title">Ontwaken via vingerafdruk</string>
+  <string name="fingerprint_wakeup_summary">Vingerafdruk sensor toestaan het apparaat te ontwaken als scherm uit is</string>
 </resources>

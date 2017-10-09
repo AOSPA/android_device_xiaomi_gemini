@@ -19,12 +19,12 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <!-- Device specific settings -->
-  <string name="device_settings_app_name">Impostazioni avanzate</string>
+  <string name="device_settings_app_name">Avancerade inställningar</string>
   <!-- Fingerprint settings -->
-  <string name="fingerprint_panel_title">Opzioni di impronte digitali</string>
-  <string name="fingerprint_panel_summary">Opzioni relative alle impronte digitali relative al dispositivo</string>
-  <string name="fingerprint_as_home_title">Impronte digitali come home</string>
-  <string name="fingerprint_as_home_summary">Utilizza lettore impronte digitali come pulsante home</string>
-  <string name="fingerprint_wakeup_title">Risveglo impronte digitali</string>
-  <string name="fingerprint_wakeup_summary">Consenti al sensore d\'impronte digitali di risvegliare il dispositivo quando lo schermo è spento</string>
+  <string name="fingerprint_panel_title">Inställningar För Fingeravtryck</string>
+  <string name="fingerprint_panel_summary">Enhetsrelaterade fingeravtryck-alternativ</string>
+  <string name="fingerprint_as_home_title">Fingeravtryck som hem</string>
+  <string name="fingerprint_as_home_summary">Använd fingeravtrycksläsaren som en hemknapp</string>
+  <string name="fingerprint_wakeup_title">Fingeravtrycksväckning</string>
+  <string name="fingerprint_wakeup_summary">Tillåt fingeravtryckssensorn att väcka enheten medans skärmen är avstängd</string>
 </resources>

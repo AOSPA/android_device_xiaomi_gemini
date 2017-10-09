@@ -19,12 +19,12 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <!-- Device specific settings -->
-  <string name="device_settings_app_name">Impostazioni avanzate</string>
+  <string name="device_settings_app_name">Upřesnit nastavení</string>
   <!-- Fingerprint settings -->
-  <string name="fingerprint_panel_title">Opzioni di impronte digitali</string>
-  <string name="fingerprint_panel_summary">Opzioni relative alle impronte digitali relative al dispositivo</string>
-  <string name="fingerprint_as_home_title">Impronte digitali come home</string>
-  <string name="fingerprint_as_home_summary">Utilizza lettore impronte digitali come pulsante home</string>
-  <string name="fingerprint_wakeup_title">Risveglo impronte digitali</string>
-  <string name="fingerprint_wakeup_summary">Consenti al sensore d\'impronte digitali di risvegliare il dispositivo quando lo schermo è spento</string>
+  <string name="fingerprint_panel_title">Otisk prstu možnosti</string>
+  <string name="fingerprint_panel_summary">Zařízení související možnosti otisků prstů</string>
+  <string name="fingerprint_as_home_title">Otisků prstů jako domov</string>
+  <string name="fingerprint_as_home_summary">Použít senzor otisků prstů jako tlačítko domů</string>
+  <string name="fingerprint_wakeup_title">Otisků prstů funkce wake-up</string>
+  <string name="fingerprint_wakeup_summary">Umožnit snímač otisků prstů probuzení zařízení, když je obrazovka vypnutá</string>
 </resources>
