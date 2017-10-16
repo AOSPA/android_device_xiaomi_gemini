@@ -56,8 +56,6 @@ on init
     chown root system /sys/fs/cgroup/memory/bg/tasks
     chmod 0660 /sys/fs/cgroup/memory/bg/tasks
 
-    write /sys/module/qpnp_rtc/parameters/poweron_alarm 1
-
 on late-fs
     # boot time fs tune
     write /sys/block/sda/queue/iostats 0
@@ -124,7 +122,6 @@ on boot
     mkdir /persist/drm 0770 system system
     mkdir /persist/bluetooth 0770 bluetooth bluetooth
     mkdir /persist/misc 0770 system system
-    mkdir /persist/alarm 0770 system system
     mkdir /persist/time 0770 system system
     mkdir /persist/data 0700 system system
     mkdir /persist/data/sfs 0700 system system

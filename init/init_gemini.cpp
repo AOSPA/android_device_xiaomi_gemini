@@ -74,5 +74,4 @@ void vendor_load_properties()
     property_set("dalvik.vm.heapminfree", heapminfree);
     property_set("dalvik.vm.heapmaxfree", heapmaxfree);
 
-    init_alarm_boot_properties();
 }
