@@ -165,7 +165,7 @@ PRODUCT_PACKAGES += \
 
 # Consumer IR
 PRODUCT_PACKAGES += \
-    android.hardware.ir@1.0-service.xiaomi_8996
+    android.hardware.ir@1.0-service.gemini
 
 # Device init scripts
 PRODUCT_PACKAGES += \

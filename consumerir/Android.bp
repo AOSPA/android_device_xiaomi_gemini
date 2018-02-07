@@ -1,5 +1,6 @@
 //
 // Copyright (C) 2017-2018 The LineageOS Project
+//           (C) 2018 Paranoid Android
 //
 // Licensed under the Apache License, Version 2.0 (the "License");
 // you may not use this file except in compliance with the License.
@@ -14,10 +15,10 @@
 // limitations under the License.
 
 cc_binary {
-    name: "android.hardware.ir@1.0-service.xiaomi_8996",
+    name: "android.hardware.ir@1.0-service.gemini",
     relative_install_path: "hw",
     defaults: ["hidl_defaults"],
-    init_rc: ["android.hardware.ir@1.0-service.xiaomi_8996.rc"],
+    init_rc: ["android.hardware.ir@1.0-service.gemini.rc"],
     srcs: ["service.cpp", "ConsumerIr.cpp"],
     shared_libs: [
         "libbase",
