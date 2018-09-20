@@ -499,8 +499,8 @@ on property:sys.shutdown.requested=*
 
 service readmac /vendor/bin/readmac
     class main
-    user root
-    group root oem_2901
+    user system
+    group system net_raw
     oneshot
 
 service thermal-engine /vendor/bin/thermal-engine -c ${sys.qcom.thermalcfg:-/vendor/etc/thermal-engine-8996.conf}
