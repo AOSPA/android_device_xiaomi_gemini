@@ -19,7 +19,7 @@
 from hashlib import sha1
 import sys
 
-device='msm8996-common'
+device='gemini'
 vendor='xiaomi'
 
 lines = [ line for line in open('proprietary-files.txt', 'r') ]

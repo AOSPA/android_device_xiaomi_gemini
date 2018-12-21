@@ -26,8 +26,7 @@
 
 LOCAL_PATH := $(call my-dir)
 
-ifneq ($(filter capricorn gemini lithium natrium scorpio,$(TARGET_DEVICE)),)
-
+ifeq ($(TARGET_DEVICE),gemini)
 include $(call all-makefiles-under,$(LOCAL_PATH))
 
 include $(CLEAR_VARS)
