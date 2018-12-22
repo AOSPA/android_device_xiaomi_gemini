@@ -435,7 +435,7 @@ etc/init/dpmd.rc|52ca6ad920a1804e4ff608113cece063730f5e0c
 etc/permissions/com.qti.dpmframework.xml|36b94c9338069e434b83359a92cdc7ff62b822df
 etc/permissions/dpmapi.xml|ded29f9befaef20a7ccee0c75427fda1d1d04890
 -framework/com.qti.dpmframework.jar|494751931cdf1ff203bcc99a95e8d177caae78c0
-framework/dpmapi.jar|4940bdc99ec676e8c6372057f91ffc303f72b49d
+-framework/dpmapi.jar|4940bdc99ec676e8c6372057f91ffc303f72b49d
 -framework/tcmclient.jar|d63f61a2905cc48f0eed56cce5dc0ca80f7ada3a
 lib64/com.qualcomm.qti.dpm.api@1.0.so|2af88934e4039edaac842576a1861cbdfe39838b
 lib64/libdpmctmgr.so|0b83268aec68d6c64896386a4c096b2e65f793af
