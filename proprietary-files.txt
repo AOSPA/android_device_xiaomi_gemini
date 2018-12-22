@@ -472,6 +472,8 @@ vendor/lib64/hw/gatekeeper.msm8996.so
 vendor/lib/hw/gatekeeper.msm8996.so
 
 # GPS - from B2N_sprout - PPR1.180610.011
+etc/permissions/com.qti.location.sdk.xml|cb68a566bd77dcc75bb7547199d528289fac01cb
+-framework/com.qti.location.sdk.jar|638c7e521d669ee210a1cce7f83bb3e26ff5ebac
 lib64/vendor.qti.gnss@1.0.so|5328d1ff2418107d1ec51403a53471eb2e37bc8d
 lib64/vendor.qti.gnss@1.1.so|54328e646850d3da58f808c592f443e17349e8d6
 lib64/vendor.qti.gnss@1.2.so|21dc566e0bc811506a7587cd9b05faaf625b042b
